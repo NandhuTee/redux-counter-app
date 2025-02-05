@@ -185,33 +185,31 @@ dispatch({ type: INCREMENT });
 
 \[UI Component\]
 
-                                    |
-
-                                    v
+|
+v
 
 \[Dispatch Action\]
 
-                                    |
+|
 
-                                    v
+v                                  
 
 \[Middleware (Optional)\]
+|
 
-                                    |
-
-                                    v
+v
 
 \[Reducer\]
 
-                                    |
+|
 
-                                    v
+v
 
 \[Store (New State)\]
+|
 
-                                    |
-
-                                    v
+v
+                                    
 
 \[UI Component Renders with Updated State\]
 
